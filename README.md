@@ -41,6 +41,8 @@ h) Démarrer le service `Unbound DNS validator`
 
 Il faut maintenant modifier la configuration réseau de la machine.
 
+![Configuration du DNS sous Windows](/Capture-dns-unbound-local.PNG)
+
 a) On ouvre le panneau des connexions réseau
 
 On appuie sur `Windows` + `R` pour ouvrir la fenêtre Exécuter (ou bien Démarrer => Exécuter).
