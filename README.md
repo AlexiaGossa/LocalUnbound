@@ -43,11 +43,14 @@ Il faut maintenant modifier la configuration réseau de la machine.
 
 ![Configuration du DNS sous Windows](/Capture-dns-unbound-local.PNG)
 
+
 a) On ouvre le panneau des connexions réseau
 
 On appuie sur `Windows` + `R` pour ouvrir la fenêtre Exécuter (ou bien Démarrer => Exécuter).
 
 On saisie `ncpa.cpl`.
+
+
 
 b) On modifie la configuration de notre carte réseau utilisée
 
@@ -65,13 +68,19 @@ On laisse vide la `Serveur DNS auxiliaire`
 
 On clique sur `OK`
 
+
 c) Il est souvent plus pratique de redémarrer l'ordinateur
 
+
+
 ## Etape 4 - C'est terminé, on teste ?
+
 
 a) Pour vérifier le bon fonctionnement de notre DNS ?
 
 On démarre une ligne de commande.
+
+![Test du DNS local sous Windows](/Capture-dns-unbound-local-2.PNG)
 
 On saisie la commande suivante `nslookup github.com`
 
@@ -86,7 +95,11 @@ Voici un exemple de réponse donnée :
 > Nom :    github.com
 > 
 > Address:  140.82.121.3
-> 
+>
+
+**Il est important de noter que le serveur de réponse est `localhost` à l'adresse `127.0.0.1`**
+
+
 
 b) Désormais votre ordinateur s'occupe de la résolution DNS !
 
