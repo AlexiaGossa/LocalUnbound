@@ -25,7 +25,7 @@ b) Renommer ce fichier en `root.hints`
 
 c) Copier le fichier `root.hint`s dans `C:\Program Files\Unbound\root.hints`
 
-d) Récupérer le fichier `service-box-internet.conf` présent dans ce petit projet
+d) Récupérer le fichier `service-box-internet.conf` présent dans ce petit projet : [Service Box Internet](/service-box-internet.conf)
 
 e) Renommer ce fichier en `service.conf`
 
@@ -106,3 +106,5 @@ b) Désormais votre ordinateur s'occupe de la résolution DNS !
 Si vous souhaitez augmenter les performances de résolution DNS, vous devez modifier le fichier `service.conf` présent dans `C:\Program Files\Unbound\`
 
 A noter que je mets également à disposition le fichier `service-box-internet-big.conf` proposant de meilleures performances au prix d'une consommation de ressources plus importantes.
+
+[Service Box Internet Large](/service-box-internet-big.conf)
