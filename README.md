@@ -23,7 +23,7 @@ https://www.internic.net/domain/named.root
 
 b) Renommer ce fichier en `root.hints`
 
-c) Copier le fichier `root.hint`s dans `C:\Program Files\Unbound\root.hints`
+c) Copier le fichier `root.hints` dans `C:\Program Files\Unbound\root.hints`
 
 d) Récupérer le fichier `service-box-internet.conf` présent dans ce petit projet : [Service Box Internet](/service-box-internet.conf)
 
